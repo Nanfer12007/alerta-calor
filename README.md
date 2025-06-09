@@ -20,7 +20,7 @@ Este é um aplicativo mobile desenvolvido com **React Native (Expo)** e **TypeSc
 - CRUD de Java
 
 
-## 🤖 Instalar pacotes
+## 🤖 Instalar Pacotes
 
 - npm install @react-navigation/native @react-navigation/native-stack
 - npx expo install expo-router react-native-screens react-native-safe-area-context react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context
@@ -33,4 +33,4 @@ Este é um aplicativo mobile desenvolvido com **React Native (Expo)** e **TypeSc
 
 # 🎥 Link do vídeo
 
--
+- https://youtu.be/mXmMSeosfIA
