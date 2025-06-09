@@ -3,11 +3,14 @@ import { Alert, Button, Switch, Text, TextInput, View } from 'react-native';
 import { colors } from '../src/styles/theme';
 
 export default function ConfiguracoesScreen() {
-  const [threshold, setThreshold] = useState('35');
-  const [notificationsEnabled, setNotificationsEnabled] = useState(true);
+  const [threshold, setThreshold] = useState<string>('35');
+  const [notificationsEnabled, setNotificationsEnabled] = useState<boolean>(true);
 
-  const saveSettings = () => {
-    Alert.alert('Configurações salvas', `Limiar: ${threshold}°C\nNotificações: ${notificationsEnabled ? 'Ativadas' : 'Desativadas'}`);
+  const saveSettings = (): void => {
+    Alert.alert(
+      'Configurações salvas',
+      `Limiar: ${threshold}°C\nNotificações: ${notificationsEnabled ? 'Ativadas' : 'Desativadas'}`
+    );
   };
 
   return (
