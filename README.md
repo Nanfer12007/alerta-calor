@@ -19,6 +19,11 @@ Este é um aplicativo mobile desenvolvido com **React Native (Expo)** e **TypeSc
 - [Axios](https://axios-http.com/)
 - CRUD de Java
 
+## ▶️ Executar o App
+
+- cd alerta-calor
+- npm install
+- npx expo start
 
 ## 🤖 Instalar Pacotes
 
